@@ -30,7 +30,6 @@ function draw() {
 function preload() {
   let clbk = _ => { console.log("loaded"); };
   nouns = loadJSON("https://raw.githubusercontent.com/akaAgar/vocabulaire-francais/master/Noms%20communs%2C%20masculin%20pluriel%20(complet).json", clbk, error => console.log("error:", error));
-  // nouns = loadJSON("names.json", clbk, error => console.log("error:", error));
 }
 
 function setup() {
@@ -38,7 +37,7 @@ function setup() {
   createCanvas(width, height);
   background("#f8f5e6");
   noLoop();
-  textFont("arida");
+  textFont("Esteban");
   textSize(20);
 }
 
